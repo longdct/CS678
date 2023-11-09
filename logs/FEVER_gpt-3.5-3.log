@@ -1,0 +1,233 @@
+2294 Claim: Dakota Fanning was in American film roles.
+Thought 1: I should search Dakota Fanning and see if she has been in American film roles.
+Action 1: Search[Dakota Fanning]
+Observation 1: Hannah Dakota Fanning (born February 23, 1994) is an American actress.[1] She rose to prominence at the age of seven for her performance as Lucy Dawson in the drama film I Am Sam (2001), for which she received a Screen Actors Guild Award nomination at the age of eight, making her the youngest nominee in SAG history.[2] Fanning played major roles as a child actress in the films Uptown Girls (2003), The Cat in the Hat (2003), Man on Fire (2004), War of the Worlds (2005), Dreamer (2005), Hide and Seek (2005), Charlotte's Web (2006), Push (2009), and the title character in Coraline (2009).. Fanning followed with more mature roles, playing Lewellen in Hounddog (2007), Lily in The Secret Life of Bees (2008), Cherie Currie in The Runaways (2010) and Jane in The Twilight Saga (2009–2012). Throughout the 2010s, she continued appearing in independent productions such as the dramas Now Is Good (2012) and Night Moves (2013), the comedy-drama Very Good Girls (2013), and the biographical film Effie Gray (2014). In 2018, she appeared in the heist comedy Ocean's 8 and had a starring role in the period drama series The Alienist. She has since portrayed Manson girl Squeaky Fromme in the Quentin Tarantino film Once Upon a Time in Hollywood (2019) and First Daughter Susan Ford in the Showtime biographical drama series The First Lady (2022).
+
+Thought 2: The observation states that Dakota Fanning is an American actress and lists several American film roles she has been in. This supports the claim that she has been in American film roles.
+Action 2: Finish[SUPPORTS]
+Observation 2: Episode finished, reward = 0
+
+
+{'steps': 2, 'answer': 'SUPPORTS', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': 2294, 'em': 0, 'reward': 0, 'f1': 0} 
+
+0 1 0.0 2.565356492996216
+-----------
+
+4586 Claim: Chile is in Asia.
+Thought 1: I should search for the location of Chile to determine if it is in Asia.
+Action 1: Search[Chile]
+Observation 1: Chile,[a] officially the Republic of Chile,[b] is a country located in western South America. It is the southernmost country in the world and the closest to Antarctica, stretching along a narrow strip of land between the Andes Mountains and the Pacific Ocean. With an area of 756,949 square kilometers (292,260 sq mi)[3] and a population of 17.5 million as of 2017,[10] Chile shares borders with Peru to the north, Bolivia to the northeast, Argentina to the east, and the Drake Passage to the south. The country also controls several Pacific islands, including Juan Fernández, Isla Salas y Gómez, Desventuradas, and Easter Island, and claims about 1,250,000 square kilometers (480,000 sq mi) of Antarctica as the Chilean Antarctic Territory.[nb 2] The capital and largest city of Chile is Santiago, and the national language is Spanish.. Spain conquered and colonized the region in the mid-16th century, replacing Inca rule, but failed to conquer the independent Mapuche people who inhabited what is now south-central Chile.
+
+Thought 2: The observation clearly states that Chile is located in western South America, not in Asia.
+Action 2: Finish[REFUTES]
+Observation 2: Episode finished, reward = 1
+
+
+{'steps': 2, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': 4586, 'em': 1, 'reward': 1, 'f1': 1} 
+
+1 2 0.5 2.2891064882278442
+-----------
+
+3253 Claim: Muscarinic acetylcholine receptors are actylcholine receptors and they are important for biochemistry.
+Thought 1: I should search for information on muscarinic acetylcholine receptors to determine if they are important for biochemistry.
+Action 1: Search[Muscarinic acetylcholine receptors]
+Observation 1: Muscarinic acetylcholine receptors, or mAChRs, are acetylcholine receptors that form G protein-coupled receptor complexes in the cell membranes of certain neurons[1] and other cells. They play several roles, including acting as the main end-receptor stimulated by acetylcholine released from postganglionic fibers in the parasympathetic nervous system.. Muscarinic receptors are so named because they are more sensitive to muscarine than to nicotine.[2] Their counterparts are nicotinic acetylcholine receptors (nAChRs), receptor ion channels that are also important in the autonomic nervous system. Many drugs and other substances (for example pilocarpine and scopolamine) manipulate these two distinct receptors by acting as selective agonists or antagonists.[3]. Acetylcholine (ACh) is a neurotransmitter found in the brain, neuromuscular junctions and the autonomic ganglia..
+
+Thought 2: The observation states that muscarinic acetylcholine receptors are acetylcholine receptors and they play several roles, including being important in the autonomic nervous system. It also mentions that many drugs and substances manipulate these receptors. Therefore, it supports the claim that muscarinic acetylcholine receptors are important for biochemistry.
+Action 2: Finish[SUPPORTS]
+Observation 2: Episode finished, reward = 0
+
+
+{'steps': 2, 'answer': 'SUPPORTS', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': 3253, 'em': 0, 'reward': 0, 'f1': 0} 
+
+1 3 0.3333333333333333 2.4138399759928384
+-----------
+
+2033 Claim: A monk practices a lifestyle characterized by abstinence from worldly pleasures.
+Thought 1: I need to determine if a monk practices a lifestyle characterized by abstinence from worldly pleasures.
+Action 1: Search[Monk lifestyle]
+Observation 1: Could not find Monk lifestyle. Similar: ['Gaur Gopal Das (category Hindu monks)', 'Jay Shetty', 'Monk (disambiguation)', 'Monk', 'Warrior monk'].
+
+Thought 2: I should search for "monk" to find information about their lifestyle.
+Action 2: Search[Monk]
+Observation 2: A monk (/mʌŋk/, from Greek: μοναχός,  monachos, "single, solitary" via Latin monachus)[1][2] is a person who practices religious asceticism by living a monastic  lifestyle, either alone or with any number of other monks.[3] A monk may be a person who decides to dedicate their life to serving other people and serving God, or to be an ascetic who voluntarily chooses to leave mainstream society and live their life in prayer and contemplation. The concept is ancient and can be seen in many religions and in philosophy.. The Greek word for a "monk" may be applied to women, but the English  is mainly in use for men. The word nun is typically used for female monastics.. Although the term monachos is of Christian origin, in the English language monk tends to be used loosely also for both male and female ascetics from other religious or philosophical backgrounds.
+
+Thought 3: The observation confirms that a monk practices a lifestyle characterized by abstinence from worldly pleasures.
+Action 3: Finish[SUPPORTS]
+Observation 3: Episode finished, reward = 0
+
+
+{'steps': 3, 'answer': 'SUPPORTS', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': 2033, 'em': 0, 'reward': 0, 'f1': 0} 
+
+1 4 0.25 2.52696830034256
+-----------
+
+6090 Claim: Justine Bateman is a poet.
+Thought 1: I should search for Justine Bateman and see if she is a poet.
+Action 1: Search[Justine Bateman]
+Observation 1: Justine Tanya Bateman (born February 19, 1966)[1] is an American actress, writer, director, and producer.[2] Her acting work includes Family Ties, Satisfaction, Men Behaving Badly, The TV Set, Desperate Housewives, and Californication. Her feature film directorial debut, Violet, starring Olivia Munn, Luke Bracey, and Justin Theroux, premiered at the 2021 SXSW Film Festival. Bateman also wrote, directed and produced the film short Five Minutes, which premiered at the 2017 Toronto International Film Festival.. Bateman was born to Victoria Elizabeth, a former flight attendant for Pan Am who was originally from the United Kingdom, and Kent Bateman.[3] She is the older sister of actor Jason Bateman.[4]. She attended Taft High School in Woodland Hills, California.
+
+Thought 2: The observation does not mention anything about Justine Bateman being a poet.
+Action 2: Finish[REFUTES]
+Observation 2: Episode finished, reward = 1
+
+
+{'steps': 2, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': 6090, 'em': 1, 'reward': 1, 'f1': 1} 
+
+2 5 0.4 2.3151299476623537
+-----------
+
+6586 Claim: Rupert Murdoch is a business owner.
+Thought 1: I should search Rupert Murdoch and find out if he is a business owner.
+Action 1: Search[Rupert Murdoch]
+Observation 1: Keith Rupert Murdoch AC KCSG (/ˈmɜːrdɒk/ MUR-dok; born 11 March 1931) is an Australian-born American business magnate, investor, and media proprietor.[2][3] Through his company News Corp, he is the owner of hundreds of local, national, and international publishing outlets around the world, including in the UK (The Sun and The Times), in Australia (The Daily Telegraph, Herald Sun, and The Australian), in the US (The Wall Street Journal and the New York Post), book publisher HarperCollins, and the television broadcasting channels Sky News Australia and Fox News (through the Fox Corporation). He was also the owner of Sky (until 2018), 21st Century Fox (until 2019), and the now-defunct News of the World. With a net worth of US$21.7 billion as of 2 March 2022,[update] Murdoch is the 31st richest person in the United States and the 71st richest in the world according to Forbes magazine.[4]. After his father's death in 1952, Murdoch took over the running of The News, a small Adelaide newspaper owned by his father. In the 1950s and 1960s, Murdoch acquired a number of newspapers in Australia and New Zealand before expanding into the United Kingdom in 1969, taking over the News of the World, followed closely by The Sun.
+
+Thought 2: The observation states that Rupert Murdoch is the owner of hundreds of publishing outlets, television broadcasting channels, and other companies. Therefore, the claim that Rupert Murdoch is a business owner is supported.
+Action 2: Finish[SUPPORTS]
+Observation 2: Episode finished, reward = 0
+
+
+{'steps': 2, 'answer': 'SUPPORTS', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': 6586, 'em': 0, 'reward': 0, 'f1': 0} 
+
+2 6 0.3333333333333333 2.2620797554651895
+-----------
+
+6519 Claim: Annette Badland was in a British prison.
+Thought 1: I should search for Annette Badland and see if she has been in a British prison.
+Action 1: Search[Annette Badland]
+Observation 1: Annette Badland (born 26 August 1950) is an English actress known for a wide range of roles on television, radio, stage, and film. She is best known for her roles as Charlotte in the BBC crime drama series Bergerac, Margaret Blaine in the BBC science fiction series Doctor Who, Mrs. Glenna Fitzgibbons in the first season of Outlander, Babe Smith in the BBC soap opera EastEnders, and as Dr. Fleur Perkins on the ITV mystery series Midsomer Murders. She was nominated for the Laurence Olivier Award for Best Actress in a Supporting Role in 1993 for her performance as Sadie in Jim Cartwright's play The Rise and Fall of Little Voice; a role she reprised in the 1998 film adaptation Little Voice.[1].
+
+Thought 2: There is no mention of Annette Badland being in a British prison in the observation. 
+Action 2: Finish[REFUTES]
+Observation 2: Episode finished, reward = 0
+
+
+{'steps': 2, 'answer': 'REFUTES', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': 6519, 'em': 0, 'reward': 0, 'f1': 0} 
+
+2 7 0.2857142857142857 2.204270601272583
+-----------
+
+5711 Claim: Middle-earth is a setting that is fictional.
+Thought 1: I should search for Middle-earth and see if it is described as fictional.
+Action 1: Search[Middle-earth]
+Observation 1: Middle-earth is the  setting of much of the English writer J. R. R. Tolkien's fantasy. The term is equivalent to the Miðgarðr of Norse mythology and Middangeard in Old English works, including Beowulf.
+
+Thought 2: The observation says that Middle-earth is the setting of J.R.R. Tolkien's fantasy, so it is described as fictional.
+Action 2: Finish[SUPPORTS]
+Observation 2: Episode finished, reward = 1
+
+
+{'steps': 2, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': 5711, 'em': 1, 'reward': 1, 'f1': 1} 
+
+3 8 0.375 2.1264824271202087
+-----------
+
+1757 Claim: Tremont Street Subway is a bridge.
+Thought 1: I should search for Tremont Street Subway and see if it is a bridge.
+Action 1: Search[Tremont Street Subway]
+Observation 1: The Tremont Street subway in Boston's MBTA subway system is the oldest subway tunnel in North America and the third oldest still in use worldwide to exclusively use electric traction (after the City and South London Railway in 1890, and the Budapest Metro's Line 1 in 1896), opening on September 1, 1897.[2][3]  It was originally built, under the supervision of Howard A. Carson as chief engineer, to get streetcar lines off the traffic-clogged streets, instead of as a true rapid transit line. It now forms the central part of the Green Line, connecting Boylston Street to Park Street and Government Center stations.. The tunnel originally served five closely spaced stations: Boylston, Park Street, Scollay Square, Adams Square, and Haymarket, with branches to the Public Garden portal and Pleasant Street incline south of Boylston. Park Street, Scollay Square, and Haymarket stations were altered over the next two decades as transfers were added to the Cambridge–Dorchester subway, East Boston Tunnel, and Main Line Elevated (now part of the Red, Blue, and Orange Lines, respectively)..
+
+Thought 2: The observation says that the Tremont Street subway is the oldest subway tunnel in North America and the third oldest still in use worldwide. It does not mention anything about it being a bridge.
+Action 2: Finish[REFUTES]
+Observation 2: Episode finished, reward = 1
+
+
+{'steps': 2, 'answer': 'REFUTES', 'gt_answer': 'REFUTES', 'question_idx': 1757, 'em': 1, 'reward': 1, 'f1': 1} 
+
+4 9 0.4444444444444444 2.0907793839772544
+-----------
+
+7278 Claim: Middle-earth is part of a literary collection of legends.
+Thought 1: I should search for Middle-earth and see if it is part of a literary collection of legends.
+Action 1: Search[Middle-earth]
+Observation 1: Middle-earth is the  setting of much of the English writer J. R. R. Tolkien's fantasy. The term is equivalent to the Miðgarðr of Norse mythology and Middangeard in Old English works, including Beowulf.
+
+Thought 2: The observation says that Middle-earth is the setting of J.R.R. Tolkien's fantasy, which implies that it is part of a literary collection of legends.
+Action 2: Finish[SUPPORTS]
+Observation 2: Episode finished, reward = 0
+
+
+{'steps': 2, 'answer': 'SUPPORTS', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': 7278, 'em': 0, 'reward': 0, 'f1': 0} 
+
+4 10 0.4 2.188431644439697
+-----------
+
+7100 Claim: Brick (film) was written by Michael Bay only.
+Thought 1: I should search for the film Brick and find out if it was written by Michael Bay only.
+Action 1: Search[Brick (film)]
+Observation 1: Brick is a 2005 American neo-noir mystery thriller film written and directed by Rian Johnson in his directorial debut, starring Joseph Gordon-Levitt. Brick was distributed by Focus Features, and opened in New York and Los Angeles on April 7, 2006. The film's narrative centers on a hardboiled detective story set in a California suburb. Most of the main characters are high school students. The film draws heavily in plot, characterization, and dialogue from hardboiled classics, especially those by Dashiell Hammett.
+
+Thought 2: The observation does not mention Michael Bay at all, so it is not clear if he was involved in the writing of the film Brick. 
+Action 2: Finish[NOT ENOUGH INFO]
+Observation 2: Episode finished, reward = 0
+
+
+{'steps': 2, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'REFUTES', 'question_idx': 7100, 'em': 0, 'reward': 0, 'f1': 0} 
+
+4 11 0.36363636363636365 2.13871769471602
+-----------
+
+1107 Claim: Trace Cyrus is a sibling of Noah Cyrus.
+Thought 1: I should search for Trace Cyrus and Noah Cyrus to see if they are siblings.
+Action 1: Search[Trace Cyrus]
+Observation 1: Trace Dempsey Cyrus[1] (born Neil Timothy Helson; February 24, 1989) is an American musician. The son of country music singer Billy Ray Cyrus and brother of recording artists Miley Cyrus and Noah Cyrus, he is the backing vocalist and guitarist of the band Metro Station, with time out between 2010 and 2014. In 2010, he began providing vocals and guitar in the pop rock band Ashland HIGH. He also owns the clothing company From Backseats to Bedrooms.[2]. Cyrus was born in Ashland, Kentucky, as Neil Timothy Helson.
+
+Thought 2: The observation says that Trace Cyrus is the brother of Miley Cyrus and Noah Cyrus, so Trace Cyrus is a sibling of Noah Cyrus.
+Action 2: Finish[SUPPORTS]
+Observation 2: Episode finished, reward = 1
+
+
+{'steps': 2, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': 1107, 'em': 1, 'reward': 1, 'f1': 1} 
+
+5 12 0.4166666666666667 2.096379021803538
+-----------
+
+2287 Claim: Folklore includes tigers.
+Thought 1: I should search for information about the album Folklore and see if it includes tigers.
+Action 1: Search[Folklore]
+Observation 1: Folklore is the whole of oral traditions shared by a particular group of people, culture or subculture.[1] This includes tales, myths, legends,[a] proverbs, poems, jokes, and other oral traditions.[3][4] They include material culture, such as traditional building styles common to the group. Folklore also includes customary lore, taking actions for folk beliefs, and the forms and rituals of celebrations such as Christmas, weddings, folk dances, and initiation rites.[3] Each one of these, either singly or in combination, is considered a folklore artifact or traditional cultural expression. Just as essential as the form, folklore also encompasses the transmission of these artifacts from one region to another or from one generation to the next. Folklore is not something one can typically gain from a formal school curriculum or study in the fine arts. Instead, these traditions are passed along informally from one individual to another, either through verbal instruction or demonstration.[5] The academic study of folklore is called folklore studies or folkloristics, and it can be explored at the undergraduate, graduate, and Ph.D.
+
+Thought 2: The observation does not provide any information about the album Folklore and whether it includes tigers or not.
+Action 2: Finish[NOT ENOUGH INFO]
+Observation 2: Episode finished, reward = 1
+
+
+{'steps': 2, 'answer': 'NOT ENOUGH INFO', 'gt_answer': 'NOT ENOUGH INFO', 'question_idx': 2287, 'em': 1, 'reward': 1, 'f1': 1} 
+
+6 13 0.46153846153846156 2.0931080854856052
+-----------
+
+3725 Claim: Chris Kyle was born on April 8, 1974.
+Thought 1: I need to search for Chris Kyle and find his birthdate.
+Action 1: Search[Chris Kyle]
+Observation 1: Christopher Scott Kyle (April 8, 1974 – February 2, 2013) was a United States Navy SEAL sniper. He served four tours in the Iraq War and was awarded several commendations for acts of heroism and meritorious service in combat. He had 160 confirmed kills and was awarded a Silver Star, three  Bronze Star Medals with "V" devices for valor, 2x  Navy and Marine Corps Achievement Medal with "V" device, as well as numerous other unit and personal awards.[4][7]. Kyle was honorably discharged from the U.S. Navy in 2009, and published his bestselling autobiography, American Sniper, in 2012.
+
+Thought 2: The observation states that Chris Kyle was born on April 8, 1974.
+Action 2: Finish[SUPPORTS]
+Observation 2: Episode finished, reward = 1
+
+
+{'steps': 2, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': 3725, 'em': 1, 'reward': 1, 'f1': 1} 
+
+7 14 0.5 2.0658959490912303
+-----------
+
+5071 Claim: The Cretaceous ended.
+Thought 1: I need to search when the Cretaceous period ended.
+Action 1: Search[Cretaceous period end]
+Observation 1: Could not find Cretaceous period end. Similar: ['Cretaceous', 'Late Cretaceous', 'Early Cretaceous', 'Cretaceous–Paleogene extinction event', 'Cretaceous–Paleogene boundary'].
+
+Thought 2: I should search for "Cretaceous–Paleogene boundary" to find when the Cretaceous period ended.
+Action 2: Search[Cretaceous–Paleogene boundary]
+Observation 2: The Cretaceous–Paleogene (K–Pg) boundary, formerly known as the Cretaceous–Tertiary (K–T) boundary,[a] is a geological signature, usually a thin band of rock containing much more iridium than other bands. The K–Pg boundary marks the end of the Cretaceous Period, the last period of the Mesozoic Era, and marks the beginning of the Paleogene Period, the first period of the Cenozoic Era. Its age is usually estimated at around 66 million years,[2] with radiometric dating yielding a more precise age of 66.043 ± 0.011 Ma.[3]. The K–Pg boundary is associated with the Cretaceous–Paleogene extinction event, a mass extinction which destroyed a majority of the world's Mesozoic species, including all dinosaurs except for birds.[4]. Strong evidence exists that the extinction coincided with a large meteorite impact at the Chicxulub crater and the generally accepted scientific theory is that this impact triggered the extinction event..
+
+Thought 3: The observation states that the Cretaceous period ended at the Cretaceous-Paleogene boundary. 
+Action 3: Finish[SUPPORTS]
+Observation 3: Episode finished, reward = 1
+
+
+{'steps': 3, 'answer': 'SUPPORTS', 'gt_answer': 'SUPPORTS', 'question_idx': 5071, 'em': 1, 'reward': 1, 'f1': 1} 
+
+8 15 0.5333333333333333 2.141562843322754
+-----------
+
