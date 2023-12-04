@@ -1,0 +1,1 @@
+{"index": 72, "error": "INTERACT_FAILED", "info": "{\"detail\":[{\"loc\":[\"body\",\"agent_response\",\"__root__\"],\"msg\":\"If status is NORMAL, content should not be None\",\"type\":\"assertion_error\"}]}", "output": {"index": null, "status": "running", "result": null, "history": null}, "time": {"timestamp": 1701554520771, "str": "2023-12-02 17:02:00"}}

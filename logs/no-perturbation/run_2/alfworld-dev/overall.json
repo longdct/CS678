@@ -1,0 +1,11 @@
+{
+    "total": 100,
+    "custom": {
+        "overall": {
+            "total": 100, 
+            "pass": 21, 
+            "wrong": 79, 
+            "success_rate": 0.21
+        }
+    }
+}

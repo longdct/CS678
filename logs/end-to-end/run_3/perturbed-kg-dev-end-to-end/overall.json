@@ -1,0 +1,22 @@
+{
+    "total": 100,
+    "validation": {
+        "running": 0.0,
+        "completed": 0.79,
+        "agent context limit": 0.0,
+        "agent validation failed": 0.0,
+        "agent invalid action": 0.0,
+        "task limit reached": 0.21,
+        "unknown": 0.0,
+        "task error": 0.0,
+        "average_history_length": 33.23,
+        "max_history_length": 49,
+        "min_history_length": 24
+    },
+    "custom": {
+        "main": 0.5257976898240055,
+        "F1": 0.5257976898240055,
+        "EM": 0.48,
+        "executability": 0.78
+    }
+}
