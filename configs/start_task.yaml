@@ -1,0 +1,14 @@
+definition:
+  import: tasks/task_assembly.yaml
+
+start:
+  perturbed-alfworld-dev: 1
+  perturbed-m2w-dev: 1
+  perturbed-kg-dev-end-to-end: 1
+  perturbed-kg-dev-step-wise: 1
+  perturbed-kg-dev-object-location: 1
+  alfworld-dev: 1
+  m2w-dev: 1
+  kg-dev: 1
+  perturbed-kg-dev-adversarial-icl: 1
+  perturbed-kg-dev-rank-object: 1

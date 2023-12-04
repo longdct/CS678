@@ -1,0 +1,6 @@
+from .task import PerturbedKnowledgeGraph as PerturbedKG_EndToEnd
+from .step_wise import PerturbedKnowledgeGraph as PerturbedKG_StepWise
+from .object_location import PerturbedKnowledgeGraph as PerturbedKG_ObjectLocation
+from .adversarial_icl import PerturbedKnowledgeGraph as PerturbedKG_AdversarialICL
+from .self_consistency import PerturbedKnowledgeGraph as PerturbedKG_SelfConsistency
+from .rank_objects import PerturbedKnowledgeGraph as PerturbedKG_RankObject

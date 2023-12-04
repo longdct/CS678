@@ -1,0 +1,19 @@
+import: definition.yaml
+
+concurrency:
+  task:
+    kg-dev: 2
+    m2w-dev: 2
+    alfworld-dev: 2
+  agent:
+    azure: 5
+
+assignments: # List[Assignment] | Assignment
+  - agent: # "task": List[str] | str ,  "agent": List[str] | str
+      - azure
+    task:
+      - kg-dev
+      - m2w-dev
+      - alfworld-dev
+
+output: "outputs/{TIMESTAMP}"

@@ -1,0 +1,7 @@
+definition:
+  import: tasks/task_assembly.yaml
+
+start:
+  alfworld-dev: 2
+  m2w-dev: 2
+  kg-dev: 2

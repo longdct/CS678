@@ -1,0 +1,19 @@
+import: definition.yaml
+
+concurrency:
+  task:
+    perturbed-alfworld-dev: 2
+    perturbed-m2w-dev: 2
+    perturbed-kg-dev-end-to-end: 2
+  agent:
+    azure: 5
+
+assignments: # List[Assignment] | Assignment
+  - agent: # "task": List[str] | str ,  "agent": List[str] | str
+      - azure
+    task:
+      - perturbed-alfworld-dev
+      - perturbed-m2w-dev
+      - perturbed-kg-dev-end-to-end
+
+output: "outputs/{TIMESTAMP}"

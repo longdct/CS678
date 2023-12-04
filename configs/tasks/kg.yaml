@@ -1,0 +1,17 @@
+default:
+  module: "src.server.tasks.knowledgegraph.KnowledgeGraph"
+  parameters:
+    round: 15
+    sparql_url: "http://freebase.orc.gmu.edu:7993/sparql"
+    start: 0
+    end: 100
+
+kg-dev:
+  parameters:
+    name: "KnowledgeGraph-dev"
+    data_file: "data/knowledgegraph/grail_qa_filtered.json"
+
+kg-std:
+  parameters:
+    name: "KnowledgeGraph-std"
+    data_file: "data/knowledgegraph/std.json"

@@ -1,0 +1,8 @@
+definition:
+  import: tasks/task_assembly.yaml
+
+start:
+  perturbed-alfworld-dev: 2
+  perturbed-m2w-dev: 2
+  perturbed-kg-dev-end-to-end: 2
+  

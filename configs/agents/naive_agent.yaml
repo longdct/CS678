@@ -1,0 +1,3 @@
+module: "src.client.agents.NaiveAgent"
+parameters:
+  text: "ACTION: go to bed 1"

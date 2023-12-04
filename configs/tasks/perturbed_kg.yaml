@@ -1,0 +1,40 @@
+default:
+  module: "src.server.tasks.perturbed_kg.PerturbedKG_EndToEnd"
+  parameters:
+    name: "perturbed-kg-dev-e2e"
+    data_file: "data/knowledgegraph/grail_qa_filtered.json"
+    round: 15
+    sparql_url: "http://freebase.orc.gmu.edu:7993/sparql"
+    item_seed: 42
+    start: 0
+    end: 100
+
+perturbed-kg-dev-end-to-end:
+  parameters:
+    name: "perturbed-kg-dev-e2e"
+    data_file: "data/knowledgegraph/grail_qa_filtered.json"
+
+perturbed-kg-dev-step-wise:
+  module: "src.server.tasks.perturbed_kg.PerturbedKG_StepWise"
+  parameters:
+    name: "perturbed-kg-dev-step-wise"
+    data_file: "data/knowledgegraph/grail_qa_filtered.json"
+
+perturbed-kg-dev-object-location:
+  module: "src.server.tasks.perturbed_kg.PerturbedKG_ObjectLocation"
+  parameters:
+    name: "perturbed-kg-dev-object-location"
+    data_file: "data/knowledgegraph/dev_object_loc.json"
+
+perturbed-kg-dev-adversarial-icl:
+  module: "src.server.tasks.perturbed_kg.PerturbedKG_AdversarialICL"
+  parameters:
+    name: "perturbed-kg-dev-adversarial-icl"
+    data_file: "data/knowledgegraph/grail_qa_filtered.json"
+
+perturbed-kg-dev-rank-object:
+  module: "src.server.tasks.perturbed_kg.PerturbedKG_RankObject"
+  parameters:
+    name: "perturbed-kg-dev-rank-object"
+    data_file: "data/knowledgegraph/grail_qa_filtered.json"
+

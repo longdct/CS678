@@ -1,0 +1,16 @@
+module: "src.client.agents.Azure"
+parameters:
+  client_args: 
+    api_key: "YOUR API KEY"
+    endpoint: "YOUR API ENDPOINT"
+    api_version: "YOUR API VERSION"
+    max_retries: 3
+  api_args:
+    model: gpt-35
+    max_tokens: 100
+    temperature: 0.0
+    top_p: 1
+    frequency_penalty: 0.0
+    presence_penalty: 0.0
+    n: 5
+    stop: ["\n\n"]

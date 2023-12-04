@@ -1,0 +1,15 @@
+import: definition.yaml
+
+concurrency:
+  task:
+    perturbed-kg-dev-rank-object: 3
+  agent:
+    azure: 3
+
+assignments: # List[Assignment] | Assignment
+  - agent: # "task": List[str] | str ,  "agent": List[str] | str
+      - azure
+    task:
+      - perturbed-kg-dev-rank-object
+
+output: "outputs/{TIMESTAMP}"
