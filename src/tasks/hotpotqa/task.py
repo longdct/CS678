@@ -5,14 +5,13 @@ import requests
 import time
 from tqdm.auto import tqdm
 
-import llm
-import wikienv, wrappers
-from utils import set_seed
-from llm import llm
+from src.environments import wikienv, wrappers
+from src.utils.utils import set_seed
+from src.utils.llm import llm
 
 import logging
 
-logger = logging.getLogger("hotpotqa")
+logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 env = wikienv.WikiEnv()
@@ -96,19 +95,7 @@ def webthink(idx=None, prompt=webthink_prompt, to_print=True, temperature=0.0):
     return r, info
 
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--seed", type=int, default=233, help="Random seed")
-    parser.add_argument(
-        "--temperature",
-        "-t",
-        type=float,
-        default=0.0,
-        help="temperature",
-    )
-    parser.add_argument("--log_path", type=str, default="hotpotqa_gpt-3.5.log")
-    args = parser.parse_args()
-
+def main(args):
     set_seed(args.seed)
     handler = logging.FileHandler(args.log_path)
     handler.setLevel(logging.INFO)
@@ -137,3 +124,19 @@ if __name__ == "__main__":
                 (time.time() - old_time) / len(rs),
             )
         )
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--seed", type=int, default=233, help="Random seed")
+    parser.add_argument(
+        "--temperature",
+        "-t",
+        type=float,
+        default=0.0,
+        help="temperature",
+    )
+    parser.add_argument("--log_path", type=str, default="hotpotqa_gpt-3.5.log")
+    args = parser.parse_args()
+
+    main(args)

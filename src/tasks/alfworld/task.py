@@ -4,16 +4,15 @@ import json
 import yaml
 from tqdm.auto import tqdm
 
-import llm
-from utils import set_seed
-from llm import llm
-
 import alfworld
 import alfworld.agents.environment
 
+from src.utils.utils import set_seed
+from src.utils.llm import llm
+
 import logging
 
-logger = logging.getLogger("alfworld")
+logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 with open("base_config.yaml") as reader:
@@ -38,7 +37,14 @@ def process_ob(ob):
     return ob
 
 
-def alfworld_run(prompt, to_print=True, ob="", max_num_duplicates=3, max_num_failed=3, temperature=0.0):
+def alfworld_run(
+    prompt,
+    to_print=True,
+    ob="",
+    max_num_duplicates=3,
+    max_num_failed=3,
+    temperature=0.0,
+):
     init_prompt = prompt + ob + "\n>"
     prompt = ""
     if to_print:
@@ -77,19 +83,7 @@ def alfworld_run(prompt, to_print=True, ob="", max_num_duplicates=3, max_num_fai
     return 0
 
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--seed", type=int, default=233, help="Random seed")
-    parser.add_argument(
-        "--temperature",
-        "-t",
-        type=float,
-        default=0.0,
-        help="temperature",
-    )
-    parser.add_argument("--log_path", type=str, default="alfworld_gpt-3.5.log")
-    args = parser.parse_args()
-
+def main(args):
     set_seed(args.seed)
     handler = logging.FileHandler(args.log_path)
     handler.setLevel(logging.INFO)
@@ -116,14 +110,16 @@ if __name__ == "__main__":
         name = "/".join(info["extra.gamefile"][0].split("/")[-3:-1])
         logger.info(f"Env name: {name}")
         for i, (k, v) in enumerate(prefixes.items()):
-            if name.startswith(k): # Matching env with specific prompt
+            if name.startswith(k):  # Matching env with specific prompt
                 prompt = (
                     "Interact with a household to solve a task. Here are two examples.\n"
                     + d[f"react_{v}_1"]
                     + d[f"react_{v}_0"]
                     + "\nHere is the task.\n"
                 )
-                r = alfworld_run(prompt, ob=ob, to_print=False, temperature=args.temperature)
+                r = alfworld_run(
+                    prompt, ob=ob, to_print=False, temperature=args.temperature
+                )
                 rs[i] += r
                 cnts[i] += 1
                 break
@@ -135,3 +131,18 @@ if __name__ == "__main__":
                 sum(rs) / sum(cnts),
             )
         )
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--seed", type=int, default=233, help="Random seed")
+    parser.add_argument(
+        "--temperature",
+        "-t",
+        type=float,
+        default=0.0,
+        help="temperature",
+    )
+    parser.add_argument("--log_path", type=str, default="alfworld_gpt-3.5.log")
+    args = parser.parse_args()
+    main(args)
